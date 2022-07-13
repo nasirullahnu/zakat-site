@@ -1,4 +1,33 @@
-h1{
-    background-color: black;
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.head-section{
+    background-size: cover;
+    background-image:linear-gradient(to left, rgba(0,0,0,0.5),rgba(0, 0, 0, 0.945)), url(images/zajat\ 3.jpg);
+    /* border: 5px solid yellow; */
+}
+.head-div{
+    margin-left: 10%;
+    padding: 8%;
+    text-align: left;
+    width: 30%;
+    color: white;
+}
+.banner-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 41px;
+    color: white;
+}
+.jakat{
+    color: yellowgreen;
+}
+.donate-button{
+    text-decoration: none;
+    padding: 6px 10px;
+    background-image: linear-gradient(rgb(23, 3, 95), rgb(69, 2, 255));
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
     color: white;
 }
