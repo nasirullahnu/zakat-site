@@ -25,14 +25,26 @@ body{
 .head-section p{
     font-size: 17px;
 }
-.donate-button{
-    text-decoration: none;
-    padding: 6px 10px;
-    background-image: linear-gradient(rgb(23, 3, 95), rgb(69, 2, 255));
-    color: black;
+.dobut{
+    background-color: tomato;
+    padding: 5px;
     border-radius: 5px;
-    font-size: 20px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+.dobut a{
+    text-decoration: none;
     color: white;
+}
+.dobut:hover{
+    color:white;
+    background-color: brown;
+    width: 123px;
+}
+.donate-button:hover{
+    color: white;
+    background-color: black;
 }
 
 /* head finish main start */
@@ -40,6 +52,9 @@ body{
 
 .second-section h1{
     font-size: 50px;
+}
+.second-section{
+    margin-top: 100px;
 }
 .flexible-container{
     display: flex;
@@ -83,4 +98,55 @@ span{
     width: 100%;
     margin-top: 60px;
     border-radius: 7px;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-family: 'Asap', sans-serif;
+}
+.mid{
+    text-align: center;
+    width: 500px;
+    padding: 0% 30%;
+    margin-top: 80px;
+}
+.mid h1{
+    font-size: 40px;
+}
+/* .payment-method{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-left: 250px;
+} */
+.payment-method{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    margin-left: 350px;
+    width: 1000px;
+}
+.payment-div{
+    display: flex; 
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 8px;
+}
+.payment-div img{
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    margin-top: 15px;
+}
+.payment-div div{
+    padding: 10px;
+}
+.payment-div h4{
+    font-family: 'Poppins', sans-serif;
 }
