@@ -150,3 +150,42 @@ p{
 .payment-div h4{
     font-family: 'Poppins', sans-serif;
 }
+.image-section{
+    display: flex;
+    margin-top: 100px;
+}
+.image-section div{
+    margin-left: 33px;
+    border: 3px solid red;
+    border-radius: 6px; 
+}
+.image-section img{
+    width: 400px;
+    height: 400px;
+}
+.fund-container{
+    display: flex;
+    margin-top: 100px;
+}
+.zakat-fund{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    text-align: left;
+    border-radius: 15px;
+
+}
+.zakat-fund img{
+    width: 100%;
+    height: 200px;
+    border-radius: 15px 15px 0px 0px;
+}
+.zakat-fund a{
+    color: red;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.zakat-fund div{
+    padding: 0px 10px 20px 10px;
+}
